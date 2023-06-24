@@ -1,0 +1,233 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremely sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: covid19
+  examples: |
+    - covid19?
+
+- intent: symptoms_covid19
+  examples: |
+    - symptoms_covid19?
+    - what are the symptoms of COVID-19?
+    - can you tell me the symptoms of COVID-19?
+
+- intent: happen_people_get_covid19
+  examples: |
+    - happen_people_get_covid19?
+    - how do people get COVID-19?
+    - what causes COVID-19?
+
+- intent: risk_severe_illness_covid19
+  examples: |
+    - risk_severe_illness_covid19?
+    - who is at risk of severe illness from COVID-19?
+    - what factors increase the risk of severe illness from COVID-19?
+
+- intent: longterm_effect_covid19
+  examples: |
+    - longterm_effect_covid19?
+    - what are the long-term effects of COVID-19?
+    - can COVID-19 cause long-term health problems?
+
+- intent: protect_others_dont_know_infected
+  examples: |
+    - protect_others_dont_know_infected?
+    - how can I protect others if I don't know I'm infected?
+    - what should I do to prevent spreading COVID-19 if I'm not aware of my infection?
+
+- intent: get_test_covid19
+  examples: |
+    - get_test_covid19?
+    - how can I get tested for COVID-19?
+    - where can I go to get a COVID-19 test?
+
+- intent: test_get_see_covid19
+  examples: |
+    - test_get_see_covid19?
+    - what happens when you get a COVID-19 test?
+    - what is the process of getting a COVID-19 test?
+
+- intent: want_find_covid19_past_test_could_take
+  examples: |
+    - want_find_covid19_past_test_could_take?
+    - I want to find out if I had COVID-19 in the past. What test should I take?
+    - which test can determine if I had COVID-19 in the past?
+
+- intent: difference_isolation_quarantine
+  examples: |
+    - difference_isolation_quarantine?
+    - what is the difference between isolation and quarantine?
+    - can you explain isolation and quarantine?
+
+- intent: expose_someone_covid19
+  examples: |
+    - expose_someone_covid19?
+    - what should I do if I've been exposed to someone with COVID-19?
+    - how to protect myself if I've come into contact with someone who has COVID-19?
+
+- intent: long_take_develop_symptoms
+  examples: |
+    - long_take_develop_symptoms?
+    - how long does it take to develop symptoms after being exposed to COVID-19?
+    - what is the incubation period for COVID-19?
+
+- intent: vaccine_covid19
+  examples: |
+    - vaccine_covid19?
+    - what is the COVID-19 vaccine?
+    - can you tell me about the vaccine for COVID-19?
+
+- intent: vaccine_available
+  examples: |
+    - vaccine_available?
+    - is the COVID-19 vaccine available?
+    - can I get the COVID-19 vaccine now?
+
+- intent: vaccine_effectiveness
+  examples: |
+    - vaccine_effectiveness?
+    - how effective is the COVID-19 vaccine?
+    - does the COVID-19 vaccine work?
+
+- intent: vaccine_safety
+  examples: |
+    - vaccine_safety?
+    - is the COVID-19 vaccine safe?
+    - are there any safety concerns with the COVID-19 vaccine?
+
+- intent: vaccine_side_effects
+  examples: |
+    - vaccine_side_effects?
+    - what are the side effects of the COVID-19 vaccine?
+    - can the COVID-19 vaccine cause any side effects?
+
+- intent: vaccine_get_infected
+  examples: |
+    - vaccine_get_infected?
+    - can you still get infected with COVID-19 after getting the vaccine?
+    - does the COVID-19 vaccine provide complete protection against the virus?
+
+- intent: vaccine_stop_spread
+  examples: |
+    - vaccine_stop_spread?
+    - does the COVID-19 vaccine stop the spread of the virus?
+    - can getting vaccinated prevent the transmission of COVID-19?
+
+- intent: vaccine_prevent_spread
+  examples: |
+    - vaccine_prevent_spread?
+    - can the COVID-19 vaccine prevent the spread of the virus to others?
+    - does getting vaccinated help in reducing the transmission of COVID-19?
+
+- intent: vaccine_recommendation
+  examples: |
+    - vaccine_recommendation?
+    - who should get the COVID-19 vaccine?
+    - are there any specific recommendations for COVID-19 vaccination?
+
+- intent: vaccine_immunity
+  examples: |
+    - vaccine_immunity?
+    - does the COVID-19 vaccine provide immunity?
+    - how long does the immunity from the COVID-19 vaccine last?
+
+- intent: vaccine_booster
+  examples: |
+    - vaccine_booster?
+    - will a booster dose of the COVID-19 vaccine be required?
+    - are there any plans for COVID-19 vaccine booster shots?
+
+- intent: vaccine_approval_process
+  examples: |
+    - vaccine_approval_process?
+    - how is the COVID-19 vaccine approved?
+    - what is the process for approving COVID-19 vaccines?

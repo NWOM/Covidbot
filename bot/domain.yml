@@ -1,0 +1,82 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - covid19
+  - symptoms_covid19
+  - happen_people_get_covid19
+  - risk_severe_illness_covid19
+  - longterm_effect_covid19
+  - protect_others_dont_know_infected
+  - get_test_covid19
+  - test_get_see_covid19
+  - want_find_covid19_past_test_could_take
+  - difference_isolation_quarantine
+  - expose_someone_covid19
+  - long_take_develop_symptoms
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_covid19:
+  - text: "COVID-19 is the disease caused by a coronavirus called SARS-CoV-2. WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of so-called viral pneumonia in Wuhan, People’s Republic of China."
+
+  utter_symptoms_covid19:
+  - text: "The most common symptoms of COVID-19 are fever, chills, and sore throat. Other symptoms include muscle aches, severe fatigue or tiredness, runny or blocked nose, headaches, sore eyes, dizziness, cough, chest pain, shortness of breath, hoarse voice, heavy arms/legs, numbness/tingling, nausea, vomiting, abdominal pain, diarrhea, appetite loss, loss or change of sense of taste or smell, and difficulty sleeping. Severe symptoms that require immediate medical attention include difficulty in breathing, confusion, drowsiness or loss of consciousness, persistent pain or pressure in the chest, cold or clammy skin, and loss of speech or movement."
+
+  utter_happen_people_get_covid19:
+  - text: "As testing rates fall, it is more difficult to know how many people have COVID-19 and do not seek any treatment. At the start of the pandemic, 15% of people were thought to become seriously unwell and require hospital treatment and oxygen. More recent estimates suggest that hospitalization is required in around 3% of people with COVID-19."
+
+  utter_risk_severe_illness_covid19:
+  - text: "People aged 60 years and over, and those with underlying medical problems like high blood pressure, diabetes, and other chronic health problems are most at risk of severe illness. However, anyone at any age can get sick with COVID-19 and become seriously ill or die."
+
+  utter_longterm_effect_covid19:
+  - text: "Some people who have had COVID-19, whether they have needed hospitalization or not, continue to experience symptoms, including fatigue, respiratory and neurological symptoms. These long-term effects are called post COVID-19 condition (also called long COVID)."
+
+  utter_protect_others_dont_know_infected:
+  - text: "You can protect yourself and others from COVID-19 by following preventive measures, such as keeping a distance, wearing a mask, practicing hand hygiene, and getting vaccinated."
+
+  utter_get_test_covid19:
+  - text: "If you suspect you have COVID-19, it is important to get tested. Contact your local health department or healthcare provider to find out where testing is available in your area."
+
+  utter_test_get_see_covid19:
+  - text: "The test to diagnose COVID-19 usually involves a swab from your nose or throat. The collected sample is then sent to a laboratory for testing. Depending on the testing capacity and lab processing time, it may take a few hours to a few days to get the test results."
+
+  utter_want_find_covid19_past_test_could_take:
+  - text: "If you want to find out if you had COVID-19 in the past, you can consider taking an antibody test. This test checks for the presence of antibodies in your blood, which indicates if you had a previous infection. Consult with your healthcare provider to learn more about antibody testing."
+
+  utter_difference_isolation_quarantine:
+  - text: "Isolation and quarantine are both important measures to prevent the spread of COVID-19. Isolation is used for individuals who are already sick with COVID-19, while quarantine is used for individuals who have been exposed to the virus but are not yet sick or showing symptoms. Isolation separates sick individuals from others, while quarantine separates and restricts the movement of people who may have been exposed to the virus to see if they develop symptoms."
+
+  utter_expose_someone_covid19:
+  - text: "If you have been in close contact with someone who has tested positive for COVID-19, it is important to monitor your symptoms and consider getting tested. Follow the guidelines and recommendations from your local health authorities for further instructions on what to do."
+
+  utter_long_take_develop_symptoms:
+  - text: "The time it takes for symptoms to develop after being exposed to COVID-19 can vary. On average, symptoms appear around 5 to 6 days after infection, but it can range from 2 to 14 days. It's important to monitor your health and seek medical attention if you develop symptoms or have concerns."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
